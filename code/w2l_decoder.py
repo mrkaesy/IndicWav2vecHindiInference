@@ -1,13 +1,8 @@
 import sys
 import os
 from pathlib import Path
-cwd = os.path.realpath('.')
 
-relative_path = "code/fairseq"
-full_path = os.path.join(cwd, relative_path)
-
-print(full_path)
-sys.path.append(full_path)
+sys.path.append('/app/repo/code/fairseq')
 from examples.speech_recognition.w2l_decoder import W2lViterbiDecoder
 
 import yaml
