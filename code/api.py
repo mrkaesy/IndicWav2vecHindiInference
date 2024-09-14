@@ -1,6 +1,5 @@
 from fastapi import FastAPI, Request, Form
 from fastapi.middleware.cors import CORSMiddleware
-from inference import model_fn, input_fn, predict_fn, output_fn
 from pydantic import BaseModel
 import sys
 
