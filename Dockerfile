@@ -32,4 +32,4 @@ WORKDIR /app/repo
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Command to run your code
-CMD ["python", "./code/api.py"]
+# CMD ["python", "./code/api.py"]
