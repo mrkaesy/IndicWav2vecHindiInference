@@ -2,7 +2,7 @@ import sys
 import os
 from pathlib import Path
 
-sys.path.append('/app/repo/code/fairseq')
+sys.path.append('/mnt/External/8TBHDD/Keyur/IndicWav2vecHindiInference/code/fairseq')
 from examples.speech_recognition.w2l_decoder import W2lViterbiDecoder
 
 import yaml

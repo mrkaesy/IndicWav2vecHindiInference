@@ -3,4 +3,5 @@ flashlight-text==0.0.4
 fairseq==0.12.2
 argparse==1.4.0
 librosa==0.10.1
-fastapi
+uvicorn
+python-multipart

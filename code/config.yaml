@@ -26,5 +26,5 @@ word_score : -1
 sil_weight : 0
 unk_weight : -.inf
 criterion_type : ctc
-model : /app/repo/code/checkpoint_best.pt
+model : /mnt/External/8TBHDD/Keyur/IndicWav2vecHindiInference/code/checkpoint_best.pt
 device : cuda
