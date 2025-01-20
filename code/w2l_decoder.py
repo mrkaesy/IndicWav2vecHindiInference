@@ -2,7 +2,10 @@ import sys
 import os
 from pathlib import Path
 
-sys.path.append('/mnt/External/8TBHDD/Keyur/IndicWav2vecHindiInference/code/fairseq')
+# Dynamically set paths relative to the current script
+BASE_DIR = Path(__file__).resolve().parent  # Path to the current script
+FAIRSEQ_DIR = BASE_DIR / 'fairseq'         # Adjust according to your directory structure
+sys.path.append(str(FAIRSEQ_DIR))
 from examples.speech_recognition.w2l_decoder import W2lViterbiDecoder
 
 import yaml
